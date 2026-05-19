@@ -1,0 +1,30 @@
+================================
+       Log Parser Report        
+================================
+Generated on: Tue May 19 03:51:56 PM PDT 2026
+
+------LOG FILE BEING ANALYZED------
+File: /var/log/auth.log
+
+------RECENT FAILED LOGIN ATTEMPTS------
+
+------SUDO COMMAND USAGE-------
+2026-05-19T12:07:52.902558-07:00 tuckedrome-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tuckedrome(uid=1000)
+2026-05-19T12:07:52.902731-07:00 tuckedrome-VirtualBox sudo: tuckedrome : TTY=/dev/pts/0 ; PWD=/home/tuckedrome/bash-toolkit/system-auditor ; USER=root ; COMMAND=/usr/sbin/ufw status
+2026-05-19T12:07:52.959721-07:00 tuckedrome-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-05-19T12:33:26.525855-07:00 tuckedrome-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=tuckedrome uid=1000 euid=0 tty=/dev/pts/0 ruser=tuckedrome rhost=  user=tuckedrome
+2026-05-19T12:33:31.950666-07:00 tuckedrome-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tuckedrome(uid=1000)
+2026-05-19T12:33:31.950790-07:00 tuckedrome-VirtualBox sudo: tuckedrome : TTY=/dev/pts/0 ; PWD=/home/tuckedrome ; USER=root ; COMMAND=/usr/bin/apt update
+2026-05-19T12:33:33.843034-07:00 tuckedrome-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-05-19T12:33:43.269568-07:00 tuckedrome-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tuckedrome(uid=1000)
+2026-05-19T12:33:43.269672-07:00 tuckedrome-VirtualBox sudo: tuckedrome : TTY=/dev/pts/0 ; PWD=/home/tuckedrome ; USER=root ; COMMAND=/usr/bin/apt install git -y
+2026-05-19T12:33:48.684510-07:00 tuckedrome-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+
+------INVALID USER ATTEMPTS------
+
+------ACCEPTED SSH LOGINS------
+2026-05-18T19:27:21.253947-07:00 tuckedrome-VirtualBox sshd-session[4254]: Accepted password for tuckedrome from 192.168.4.31 port 51663 ssh2
+
+================================
+  Report generated successfully 
+================================
