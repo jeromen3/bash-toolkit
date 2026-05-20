@@ -6,7 +6,7 @@
 # Purpose: Audit local Linux user accounts and identify security-relevant account details
 # ==========================================================
 
-REPORT_DIR="$HOME/user_audit_reports"
+REPORT_DIR="$HOME/bash-toolkit/user-account-auditor/user_audit_reports"
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 REPORT_FILE="$REPORT_DIR/user_audit_$DATE.txt"
 

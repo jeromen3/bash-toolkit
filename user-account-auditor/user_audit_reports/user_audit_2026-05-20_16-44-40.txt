@@ -1,0 +1,142 @@
+========================================
+User Account Audit Report
+Generated at: 2026-05-20_16-44-40
+Hostname: tuckedrome-VirtualBox
+========================================
+
+[1] All Local User Accounts
+----------------------------------------
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+dhcpcd
+messagebus
+syslog
+systemd-resolve
+_chrony
+tss
+uuidd
+systemd-oom
+whoopsie
+dnsmasq
+avahi
+nm-openvpn
+tcpdump
+sssd
+speech-dispatcher
+usbmux
+cups-pk-helper
+fwupd-refresh
+saned
+geoclue
+cups-browsed
+pipewire
+hplip
+gnome-remote-desktop
+polkitd
+rtkit
+colord
+gdm
+tuckedrome
+sshd
+
+[2] Users With Login Shells
+----------------------------------------
+root - /bin/bash
+sync - /bin/sync
+tuckedrome - /bin/bash
+
+[3] Users With UID 0
+----------------------------------------
+root - UID: 0
+
+[4] Users With Sudo Group Access
+----------------------------------------
+sudo:x:27:tuckedrome
+
+[5] Locked Accounts
+----------------------------------------
+root - locked
+systemd-network - locked
+dhcpcd - locked
+messagebus - locked
+syslog - locked
+systemd-resolve - locked
+_chrony - locked
+tss - locked
+uuidd - locked
+systemd-oom - locked
+whoopsie - locked
+dnsmasq - locked
+avahi - locked
+nm-openvpn - locked
+tcpdump - locked
+sssd - locked
+speech-dispatcher - locked
+usbmux - locked
+cups-pk-helper - locked
+fwupd-refresh - locked
+saned - locked
+geoclue - locked
+cups-browsed - locked
+pipewire - locked
+hplip - locked
+gnome-remote-desktop - locked
+polkitd - locked
+rtkit - locked
+colord - locked
+gdm - locked
+sshd - locked
+
+[6] Accounts With Empty Password Field
+----------------------------------------
+
+[7] Password Aging Information
+----------------------------------------
+User: root
+Last password change					: Apr 23, 2026
+Password expires					: never
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 99999
+Number of days of warning before password expires	: 7
+
+User: sync
+Last password change					: Apr 23, 2026
+Password expires					: never
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 99999
+Number of days of warning before password expires	: 7
+
+User: tuckedrome
+Last password change					: May 18, 2026
+Password expires					: never
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 99999
+Number of days of warning before password expires	: 7
+
+========================================
+Audit complete.
+Report saved to: /home/tuckedrome/bash-toolkit/user-account-auditor/user_audit_reports/user_audit_2026-05-20_16-44-40.txt
+========================================
